@@ -23,7 +23,7 @@ def add_footer():
     footer_html = """
     <div class="footer-text">
         © 2025
-        <a href="https://github.com/imperionite/ghg" target="_blank" rel="noopener noreferrer"> GHG Data Explorer PH </a>
+        <a href="https://github.com/imperionite/ilmanala" target="_blank" rel="noopener noreferrer"> GHG Data Explorer PH </a>
         by
         <a href="https://github.com/imperionite" target="_blank" rel="noopener noreferrer"> Arnel Imperial</a>.
         Built with ❤️ using

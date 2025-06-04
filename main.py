@@ -61,7 +61,11 @@ Be part of a growing community committed to protecting people and the planet.
 # About the Project
 st.markdown("## 🧩 About the Project")
 st.markdown("""
-GHG Data Explorer PH was developed by [Arnel Imperial](https://github.com/imperionite) as part of the **People and Earth’s Ecosystem MO-ENV076** course from Mapua Malayan Digital College.  
+GHG Data Explorer PH was developed by [Arnel Imperial](https://github.com/imperionite) as part of the **People and Earth’s Ecosystem MO-ENV076** course from Mapua Malayan Digital College. 
+            
+Please check the following links to know more about the project:
+- [Project Lineage](https://github.com/imperionite/ilmanala) & [Notebook Project](https://github.com/imperionite/ilmanala/blob/main/EDA_GHG.ipynb)
+- [Web App](https://github.com/imperionite/ghg)
 
 It’s more than a project—it’s a call to action.
 
