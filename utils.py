@@ -4,7 +4,7 @@ def add_footer():
     footer_style = """
         <style>
         .footer-text {
-            font-size: 0.75rem;
+            font-size: 1rem;
             color: #6c757d;  /* muted gray */
             text-align: left;
             margin-top: 1rem;
@@ -22,7 +22,7 @@ def add_footer():
     """
     footer_html = """
         <div class="footer-text">
-            <a href="https://github.com/imperionite/ghg" target="_blank" rel="noopener noreferrer">GHG Data Explorer PH </a>by<a href="https://github.com/imperionite" target="_blank" rel="noopener noreferrer"> Arnel Imperial</a>. Built with <a href="https://www.r-project.org/about.html" target="_blank" rel="noopener noreferrer">R</a>,<a href="https://docs.python.org/3/faq/general.html#what-is-python" target="_blank" rel="noopener noreferrer"> Python</a> and Streamlit
+            © 2025<a href="https://github.com/imperionite/ghg" target="_blank" rel="noopener noreferrer"> GHG Data Explorer PH </a>by<a href="https://github.com/imperionite" target="_blank" rel="noopener noreferrer"> Arnel Imperial</a>. Built with ❤️ using <a href="https://www.r-project.org/about.html" target="_blank" rel="noopener noreferrer">R</a>,<a href="https://docs.python.org/3/faq/general.html#what-is-python" target="_blank" rel="noopener noreferrer"> Python</a> and Streamlit
         </div>
     """
     st.markdown(footer_style + footer_html, unsafe_allow_html=True)
