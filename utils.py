@@ -21,8 +21,17 @@ def add_footer():
         </style>
     """
     footer_html = """
-        <div class="footer-text">
-            © 2025<a href="https://github.com/imperionite/ghg" target="_blank" rel="noopener noreferrer"> GHG Data Explorer PH </a>by<a href="https://github.com/imperionite" target="_blank" rel="noopener noreferrer"> Arnel Imperial</a>. Built with ❤️ using <a href="https://www.r-project.org/about.html" target="_blank" rel="noopener noreferrer">R</a>,<a href="https://docs.python.org/3/faq/general.html#what-is-python" target="_blank" rel="noopener noreferrer"> Python</a> and Streamlit
-        </div>
-    """
+    <div class="footer-text">
+        © 2025
+        <a href="https://github.com/imperionite/ghg" target="_blank" rel="noopener noreferrer"> GHG Data Explorer PH </a>
+        by
+        <a href="https://github.com/imperionite" target="_blank" rel="noopener noreferrer"> Arnel Imperial</a>.
+        Built with ❤️ using
+        <a href="https://www.r-project.org/about.html" target="_blank" rel="noopener noreferrer">R</a>,
+        <a href="https://docs.python.org/3/faq/general.html#what-is-python" target="_blank" rel="noopener noreferrer">Python</a>,
+        <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">Firebase</a> and
+        <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">Streamlit</a>
+    </div>
+"""
+
     st.markdown(footer_style + footer_html, unsafe_allow_html=True)
