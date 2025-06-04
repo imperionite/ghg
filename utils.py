@@ -4,7 +4,7 @@ def add_footer():
     footer_style = """
         <style>
         .footer-text {
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #6c757d;  /* muted gray */
             text-align: left;
             margin-top: 1rem;
@@ -29,6 +29,7 @@ def add_footer():
         Built with ❤️ using
         <a href="https://www.r-project.org/about.html" target="_blank" rel="noopener noreferrer">R</a>,
         <a href="https://docs.python.org/3/faq/general.html#what-is-python" target="_blank" rel="noopener noreferrer">Python</a>,
+        <a href="https://docs.astro.build/en/concepts/why-astro/" target="_blank" rel="noopener noreferrer">AstroJS</a>,
         <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">Firebase</a> and
         <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">Streamlit</a>
     </div>
