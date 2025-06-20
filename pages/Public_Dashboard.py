@@ -1,4 +1,6 @@
+import os
 import streamlit as st
+from dotenv import load_dotenv
 from utils.api import fetch_community_summary
 from visuals.map import community_emission_map
 from visuals.region_bar import region_emissions_bar
@@ -11,9 +13,14 @@ from visuals.lowest_emitters import lowest_emitters_table
 from visuals.top_emitters import top_emitters_leaderboard
 from utils.footer import add_footer
 
+load_dotenv()
+
+GHG_SCOUT_URL = os.getenv("GHG_SCOUT_URL", "http://localhost:5173")
+
 st.set_page_config(page_title="Public Dashboard", page_icon="📊", layout="wide")
-st.title("📊 Public GHG Emissions Dashboard")
+st.title("🌍 Public GHG Emissions Dashboard")
 st.caption("Explore aggregated greenhouse gas emissions across Philippine regions and community types shared by users.")
+st.link_button("Go back to GHG-Scout Community Data", f"{GHG_SCOUT_URL}/community-dashboard")
 
 # Fetch data
 summary_data = fetch_community_summary()
@@ -41,6 +48,7 @@ if selected_menu == "🌍 Map of Emissions":
         "This interactive map visualizes reported greenhouse gas emissions across cities in the Philippines. "
         "Bubble size and color intensity represent the magnitude of emissions, helping identify geographic hotspots and regional disparities."
     )
+
     community_emission_map(summary_data)
 
 elif selected_menu == "📊 Emissions by Region":
