@@ -1,7 +1,7 @@
 import streamlit as st
-from utils import add_footer
+from utils.footer import add_footer
 
-# 📊 Page info
+# Page info
 st.set_page_config(page_title="Issue", page_icon="🧩")
 
 st.sidebar.title("Navigation")
@@ -77,8 +77,6 @@ Although the Philippines ranks 34th in total GHG emissions, it is **one of the m
 
 st.markdown("""
 ## 📚 References
-
-**References:**
 
 - Emission-Index. (2021). Global greenhouse gas emissions by country. *Emission-Index*. [https://www.emission-index.com](https://www.emission-index.com)
 

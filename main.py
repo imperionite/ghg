@@ -1,6 +1,6 @@
 import streamlit as st
 
-from utils import add_footer
+from utils.footer import add_footer
 
 # Page configuration
 st.set_page_config(

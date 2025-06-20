@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
-from utils import add_footer
+from utils.footer import add_footer
 
 # ----------------------------
 # Load and Clean Data

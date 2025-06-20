@@ -1,0 +1,789 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9803621,
+          14.5904492
+        ]
+      },
+      "properties": {
+        "region": "National Capital Region (NCR)",
+        "city": "Manila"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0486254,
+          14.6510546
+        ]
+      },
+      "properties": {
+        "region": "National Capital Region (NCR)",
+        "city": "Quezon City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0211226,
+          14.5567949
+        ]
+      },
+      "properties": {
+        "region": "National Capital Region (NCR)",
+        "city": "Makati"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0764343,
+          14.5605166
+        ]
+      },
+      "properties": {
+        "region": "National Capital Region (NCR)",
+        "city": "Pasig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0744942,
+          14.5270538
+        ]
+      },
+      "properties": {
+        "region": "National Capital Region (NCR)",
+        "city": "Taguig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9724002,
+          14.651348
+        ]
+      },
+      "properties": {
+        "region": "National Capital Region (NCR)",
+        "city": "Caloocan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5933719,
+          16.4119905
+        ]
+      },
+      "properties": {
+        "region": "Cordillera Administrative Region (CAR)",
+        "city": "Baguio City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4440137,
+          17.4136195
+        ]
+      },
+      "properties": {
+        "region": "Cordillera Administrative Region (CAR)",
+        "city": "Tabuk City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5885189,
+          16.4617181
+        ]
+      },
+      "properties": {
+        "region": "Cordillera Administrative Region (CAR)",
+        "city": "La Trinidad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3872632,
+          17.5755487
+        ]
+      },
+      "properties": {
+        "region": "Region I \u2013 Ilocos Region",
+        "city": "Vigan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5935433,
+          18.1973235
+        ]
+      },
+      "properties": {
+        "region": "Region I \u2013 Ilocos Region",
+        "city": "Laoag City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317104,
+          16.6162676
+        ]
+      },
+      "properties": {
+        "region": "Region I \u2013 Ilocos Region",
+        "city": "San Fernando City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7300377,
+          17.6118858
+        ]
+      },
+      "properties": {
+        "region": "Region II \u2013 Cagayan Valley",
+        "city": "Tuguegarao City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8886466,
+          17.1486341
+        ]
+      },
+      "properties": {
+        "region": "Region II \u2013 Cagayan Valley",
+        "city": "Ilagan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5478637,
+          16.6915963
+        ]
+      },
+      "properties": {
+        "region": "Region II \u2013 Cagayan Valley",
+        "city": "Santiago City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6938038,
+          15.0283014
+        ]
+      },
+      "properties": {
+        "region": "Region III \u2013 Central Luzon",
+        "city": "San Fernando City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5875321,
+          15.1389351
+        ]
+      },
+      "properties": {
+        "region": "Region III \u2013 Central Luzon",
+        "city": "Angeles City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8113694,
+          14.843759
+        ]
+      },
+      "properties": {
+        "region": "Region III \u2013 Central Luzon",
+        "city": "Malolos City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2835205,
+          14.8314675
+        ]
+      },
+      "properties": {
+        "region": "Region III \u2013 Central Luzon",
+        "city": "Olongapo City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1545876,
+          14.2063646
+        ]
+      },
+      "properties": {
+        "region": "Region IV-A \u2013 CALABARZON",
+        "city": "Calamba City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0584755,
+          13.7558718
+        ]
+      },
+      "properties": {
+        "region": "Region IV-A \u2013 CALABARZON",
+        "city": "Batangas City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.908919,
+          14.4820919
+        ]
+      },
+      "properties": {
+        "region": "Region IV-A \u2013 CALABARZON",
+        "city": "Cavite City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0465765,
+          14.236182
+        ]
+      },
+      "properties": {
+        "region": "Region IV-A \u2013 CALABARZON",
+        "city": "Santa Rosa City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7438187,
+          9.7398561
+        ]
+      },
+      "properties": {
+        "region": "Region IV-B \u2013 MIMAROPA",
+        "city": "Puerto Princesa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.179543,
+          13.4145513
+        ]
+      },
+      "properties": {
+        "region": "Region IV-B \u2013 MIMAROPA",
+        "city": "Calapan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2,
+          12.5
+        ]
+      },
+      "properties": {
+        "region": "Region IV-B \u2013 MIMAROPA",
+        "city": "Romblon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7345746,
+          13.1388505
+        ]
+      },
+      "properties": {
+        "region": "Region V \u2013 Bicol Region",
+        "city": "Legazpi City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1850318,
+          13.6240122
+        ]
+      },
+      "properties": {
+        "region": "Region V \u2013 Bicol Region",
+        "city": "Naga City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0052543,
+          12.9707848
+        ]
+      },
+      "properties": {
+        "region": "Region V \u2013 Bicol Region",
+        "city": "Sorsogon City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.5732604,
+          10.6932884
+        ]
+      },
+      "properties": {
+        "region": "Region VI \u2013 Western Visayas",
+        "city": "Iloilo City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.956,
+          10.6769
+        ]
+      },
+      "properties": {
+        "region": "Region VI \u2013 Western Visayas",
+        "city": "Bacolod City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.7571301,
+          11.5761958
+        ]
+      },
+      "properties": {
+        "region": "Region VI \u2013 Western Visayas",
+        "city": "Roxas City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9019209,
+          10.2935639
+        ]
+      },
+      "properties": {
+        "region": "Region VII \u2013 Central Visayas",
+        "city": "Cebu City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0597073,
+          10.2705538
+        ]
+      },
+      "properties": {
+        "region": "Region VII \u2013 Central Visayas",
+        "city": "Lapu-Lapu City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.8788215,
+          9.6272084
+        ]
+      },
+      "properties": {
+        "region": "Region VII \u2013 Central Visayas",
+        "city": "Tagbilaran City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0079543,
+          11.2436208
+        ]
+      },
+      "properties": {
+        "region": "Region VIII \u2013 Eastern Visayas",
+        "city": "Tacloban City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5058474,
+          11.0567561
+        ]
+      },
+      "properties": {
+        "region": "Region VIII \u2013 Eastern Visayas",
+        "city": "Ormoc City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4322433,
+          11.6079854
+        ]
+      },
+      "properties": {
+        "region": "Region VIII \u2013 Eastern Visayas",
+        "city": "Borongan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0764868,
+          6.9046876
+        ]
+      },
+      "properties": {
+        "region": "Region IX \u2013 Zamboanga Peninsula",
+        "city": "Zamboanga City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4365816,
+          7.8249717
+        ]
+      },
+      "properties": {
+        "region": "Region IX \u2013 Zamboanga Peninsula",
+        "city": "Pagadian City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3449371,
+          8.5864062
+        ]
+      },
+      "properties": {
+        "region": "Region IX \u2013 Zamboanga Peninsula",
+        "city": "Dipolog City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.645052,
+          8.4810956
+        ]
+      },
+      "properties": {
+        "region": "Region X \u2013 Northern Mindanao",
+        "city": "Cagayan de Oro City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2542936,
+          8.2454672
+        ]
+      },
+      "properties": {
+        "region": "Region X \u2013 Northern Mindanao",
+        "city": "Iligan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1305726,
+          8.1550421
+        ]
+      },
+      "properties": {
+        "region": "Region X \u2013 Northern Mindanao",
+        "city": "Malaybalay City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6080623,
+          7.0648306
+        ]
+      },
+      "properties": {
+        "region": "Region XI \u2013 Davao Region",
+        "city": "Davao City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8094853,
+          7.4470784
+        ]
+      },
+      "properties": {
+        "region": "Region XI \u2013 Davao Region",
+        "city": "Tagum City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6807086,
+          7.29987
+        ]
+      },
+      "properties": {
+        "region": "Region XI \u2013 Davao Region",
+        "city": "Panabo City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8435427,
+          6.5004067
+        ]
+      },
+      "properties": {
+        "region": "Region XII \u2013 SOCCSKSARGEN",
+        "city": "Koronadal City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1721893,
+          6.1122217
+        ]
+      },
+      "properties": {
+        "region": "Region XII \u2013 SOCCSKSARGEN",
+        "city": "General Santos City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0905037,
+          7.0095784
+        ]
+      },
+      "properties": {
+        "region": "Region XII \u2013 SOCCSKSARGEN",
+        "city": "Kidapawan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6004293,
+          8.9753616
+        ]
+      },
+      "properties": {
+        "region": "Region XIII \u2013 Caraga",
+        "city": "Butuan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4935697,
+          9.7905028
+        ]
+      },
+      "properties": {
+        "region": "Region XIII \u2013 Caraga",
+        "city": "Surigao City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7482023,
+          8.714521
+        ]
+      },
+      "properties": {
+        "region": "Region XIII \u2013 Caraga",
+        "city": "Bayugan City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2467062,
+          7.2237628
+        ]
+      },
+      "properties": {
+        "region": "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)",
+        "city": "Cotabato City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2649927,
+          8.0542739
+        ]
+      },
+      "properties": {
+        "region": "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)",
+        "city": "Marawi City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0028,
+          6.0522
+        ]
+      },
+      "properties": {
+        "region": "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)",
+        "city": "Jolo"
+      }
+    }
+  ]
+}
