@@ -20,7 +20,34 @@ GHG_SCOUT_URL = os.getenv("GHG_SCOUT_URL", "http://localhost:5173")
 st.set_page_config(page_title="Public Dashboard", page_icon="📊", layout="wide")
 st.title("🌍 Public GHG Emissions Dashboard")
 st.caption("Explore aggregated greenhouse gas emissions across Philippine regions and community types shared by users.")
-st.link_button("Go back to GHG-Scout Community Data", f"{GHG_SCOUT_URL}/community-dashboard")
+# st.link_button("Go back to GHG-Scout Community Data", f"{GHG_SCOUT_URL}/community-dashboard")
+
+st.markdown(f"""
+    <style>
+    .stButton > button, .custom-link-button {{
+        background-color: #F0F2F6;
+        color: #262730;
+        padding: 0.375rem 0.75rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgba(49, 51, 63, 0.2);
+        font-weight: 500;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }}
+    .custom-link-button:hover {{
+        background-color: rgba(49, 51, 63, 0.05);
+    }}
+    </style>
+
+    <a href="{GHG_SCOUT_URL}/community-dashboard" target="_self" class="custom-link-button">
+        Go back to GHG-Scout Community Data
+    </a>
+    """, unsafe_allow_html=True)
+
 
 # Fetch data
 summary_data = fetch_community_summary()
