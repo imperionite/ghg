@@ -1,5 +1,6 @@
 import streamlit as st
 from utils.footer import add_footer
+from utils.ghg_sc import ghg_sc_btn
 
 # Issue.py
 st.set_page_config(page_title="Issue", page_icon="🧩")
@@ -92,5 +93,6 @@ st.markdown("""
 """)
 
 st.markdown("""---""")
+ghg_sc_btn()
 
 add_footer()

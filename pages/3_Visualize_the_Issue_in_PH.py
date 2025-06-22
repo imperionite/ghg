@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
 from utils.footer import add_footer
+from utils.ghg_sc import ghg_sc_btn
 
 # ----------------------------
 # Load and Clean Data
@@ -48,6 +49,8 @@ Users are encouraged to consult the [project documentation](https://github.com/i
 st.markdown("""
 **Note:** This is a prototype dashboard for Milestone 1. More detailed insights and filters will be included in **Milestone 2** as we expand this platform into a full data-driven web app.
 """)
+
+ghg_sc_btn()
 
 # ----------------------------
 # Emissions Overview Table

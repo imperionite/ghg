@@ -1,11 +1,7 @@
-# import os
 import streamlit as st
 import requests
 
 from .config import BACKEND_URL
-# from dotenv import load_dotenv
-
-# load_dotenv()
 
 def fetch_community_summary():
     try:

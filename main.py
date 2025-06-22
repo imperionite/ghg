@@ -1,5 +1,6 @@
 import streamlit as st
 
+from utils.ghg_sc import ghg_sc_btn
 from utils.footer import add_footer
 
 # Page configuration
@@ -80,5 +81,6 @@ st.markdown("""
 
   **Some of the links here are only a placeholder**.       
 """)
+ghg_sc_btn()
 
 add_footer()
