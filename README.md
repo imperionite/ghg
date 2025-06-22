@@ -1,5 +1,8 @@
 # GHG Data Explorer PH
 
 ## To Run the App
-streamlit run main.py
+```sh
+streamlit cache clear && streamlit run main.py
+```
+
 

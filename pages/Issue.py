@@ -1,7 +1,7 @@
 import streamlit as st
 from utils.footer import add_footer
 
-# Page info
+# Issue.py
 st.set_page_config(page_title="Issue", page_icon="🧩")
 
 st.sidebar.title("Navigation")

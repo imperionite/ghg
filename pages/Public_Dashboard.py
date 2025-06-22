@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 from dotenv import load_dotenv
 from utils.api import fetch_community_summary
@@ -11,11 +10,9 @@ from visuals.sectoral_trend import sectoral_trend_over_time
 from visuals.sectoral_by_type import sectoral_by_community_type
 from visuals.lowest_emitters import lowest_emitters_table
 from visuals.top_emitters import top_emitters_leaderboard
+
 from utils.footer import add_footer
-
-load_dotenv()
-
-GHG_SCOUT_URL = os.getenv("GHG_SCOUT_URL", "http://localhost:5173")
+from utils.config import GHG_SCOUT_URL
 
 st.set_page_config(page_title="Public Dashboard", page_icon="📊", layout="wide")
 st.title("🌍 Public GHG Emissions Dashboard")

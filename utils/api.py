@@ -1,10 +1,11 @@
-import os
+# import os
+import streamlit as st
 import requests
-from dotenv import load_dotenv
 
-load_dotenv()
+from .config import BACKEND_URL
+# from dotenv import load_dotenv
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+# load_dotenv()
 
 def fetch_community_summary():
     try:
